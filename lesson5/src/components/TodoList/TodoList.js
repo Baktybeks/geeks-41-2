@@ -5,7 +5,6 @@ import classes from './TodoList.module.scss';
 
 const TodoList = ({todoList, handleDone, handleDelete,handleEdit}) => {
     const [currentId, setCurrentId] = useState(null)
-    console.log(currentId,'currentId');
     return (
         <div className={classes.ul}>
             {

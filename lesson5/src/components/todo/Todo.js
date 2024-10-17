@@ -6,7 +6,6 @@ import Button from '../button/Button';
 const Todo = ({ todo, handleDone, handleDelete, setCurrentId, isEdit, handleEdit }) => {
 
     const [ inputValue, setInputValue ] = useState(todo.title);
-    console.log(inputValue);
     return (
         <>
             <li className={`${classes.li} ${todo.completed && classes.done}`}>
